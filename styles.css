@@ -1,1 +1,105 @@
 
+
+#header{
+  font-family: Arial;
+  font-size: 20px;
+
+}
+
+
+
+
+
+.copyright {
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+}
+
+#ingredients {
+  display: inline;
+  background-color: violet;
+  position: relative; 
+  top: 0;
+  left 0;
+  witdh: 30vh;
+  height: 3.1 rem;
+    
+  
+}
+
+
+#equipment{
+  display: inline;
+  background-color: Gray;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 30vh;
+  height: 3.1 rem
+  
+}
+
+
+
+#directions{
+  display: inline;
+  background-color: Lightgray;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 30vh;
+  height: 3.1 rem
+  }
+
+
+#jumbotron{
+  position: relative;
+  border: 
+}
+
+ol {
+  margin-top: none;
+  font-size: 20px
+  
+}
+
+/*Hoping I can keep these hidden onload*/
+#procedure #ingredients ol, 
+#procedure #equipment ol,
+#procedure #directions ol, {
+  display: none;
+}
+
+/*Sadako will be defined here... boo*/
+#procedure #ingredients.sadako ol,
+#procedure #equipment.sadako ol,
+#procedure #directions ol, {
+  display: block;
+}
+
+
+/*this is still totally screwed*/
+@media and (orientation: portrait) {
+*{ content: border-box;
+  .row{
+    width: 33vw;
+    border: 0
+  }}
+  
+@media screen and (min-width: 575px)
+  *{ content: border-box;
+    .row{
+      width: 100%;
+      border: 0
+    }
+    
+  }
+ 
+  
+}
+
+ul,
+ol {
+  display: block;
+}
